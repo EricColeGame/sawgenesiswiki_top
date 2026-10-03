@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "release": "Release",
+    "trailers": "Trailers",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "lore": "Lore",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -419,7 +426,34 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "release": {
+    "overviewTitle": "Saw Genesis Release Coverage",
+    "overviewDescription": "Follow every Saw Genesis release milestone: launch windows, platform availability, early access details, and the latest official announcements in one place."
+  },
+  "trailers": {
+    "overviewTitle": "Saw Genesis Trailers & Reveals",
+    "overviewDescription": "Watch and break down every Saw Genesis trailer, gameplay reveal, and cinematic teaser, with notes on the mechanics and story beats each one shows off."
+  },
+  "guide": {
+    "overviewTitle": "Saw Genesis Guides",
+    "overviewDescription": "Practical Saw Genesis guides for new and returning players, covering how to play, alpha sign-ups, playtests, demos, and the fastest way to get started."
+  },
+  "mechanics": {
+    "overviewTitle": "Saw Genesis Game Mechanics",
+    "overviewDescription": "Understand how Saw Genesis actually plays: multiplayer modes, crossplay, single-player structure, and the trap systems that drive its competitive horror."
+  },
+  "characters": {
+    "overviewTitle": "Saw Genesis Characters",
+    "overviewDescription": "Meet the Saw Genesis cast, from Jigsaw and the Judge to the Accused, with profiles on their roles, abilities, and story connections."
+  },
+  "lore": {
+    "overviewTitle": "Saw Genesis Story & Lore",
+    "overviewDescription": "Explore the Saw Genesis timeline, canon, and plot, and see how the game connects to the wider franchise's story and history."
+  },
+  "community": {
+    "overviewTitle": "Saw Genesis Community",
+    "overviewDescription": "Find the Saw Genesis community across Discord, Reddit, and news channels, plus the best places to share strategies and keep up with updates."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -450,10 +484,10 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Community Tools",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "characterGuides": "Character Guides",
+    "mechanicsGuides": "Mechanics",
+    "loreGuides": "Story & Lore"
   }
 }

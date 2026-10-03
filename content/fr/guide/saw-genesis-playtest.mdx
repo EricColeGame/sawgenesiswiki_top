@@ -1,0 +1,133 @@
+export const metadata = {
+  title: "Guide du playtest de Saw Genesis : comment y participer, à quoi s'attendre et comment y survivre",
+  description: "Tout ce qu'il faut savoir sur un playtest de Saw Genesis : comment y accéder, à quoi ressemblent les sessions et comment fournir un retour que les développeurs utilisent réellement.",
+  category: "guide",
+  date: "2026-10-03",
+}
+
+Un playtest de Saw Genesis est la façon la moins chère de voir un jeu d'horreur à pièges avant sa sortie — et le moyen le plus rapide de gâcher une soirée sur une build qui plante toutes les dix minutes. Si vous attendez un créneau, la différence entre une bonne session et une mauvaise tient à la préparation : savoir comment fonctionne l'accès, ce que les testeurs sont censés faire et comment rapporter ce que vous trouvez. Ce guide détaille tout le processus du playtest de Saw Genesis, de l'inscription aux retours, en termes simples.
+
+Un avertissement d'emblée. Les builds de playtest changent constamment, donc considérez tout nom de piège, code ou planning spécifique que vous voyez sur un forum comme non vérifié, sauf si les développeurs l'ont publié eux-mêmes. Ce qui ne change pas, c'est le workflow — et c'est ce que ce guide couvre.
+
+## Ce qu'est réellement le playtest de Saw Genesis
+
+Un playtest de Saw Genesis est une version précoce à accès limité d'un jeu d'horreur multijoueur à pièges, confiée à un petit groupe de joueurs avant la sortie afin que les développeurs puissent observer de vraies personnes résoudre — et casser — leurs énigmes. Si vous avez joué à un jeu d'horreur coopératif d'escape room ces dernières années, la formule vous semblera familière : une équipe est larguée sur une carte hostile, reçoit un ensemble de règles et doit coopérer sous un chrono pendant que quelque chose la traque.
+
+Cette distinction compte plus qu'il n'y paraît. Dans un jeu construit autour de pièges mortels, une erreur de timing de deux secondes ou un objectif vague peut transformer la tension en pure irritation. Les développeurs ne peuvent pas ressentir cela depuis un tableur. Ils ont besoin de séquences, d'horodatages et de réactions honnêtes de personnes qui ne sont pas salariées.
+
+Les playtests de ce genre passent généralement par des étapes reconnaissables. Savoir à quelle étape se trouve un projet vous indique ce que l'équipe attend réellement de vous.
+
+| Étape | Qui est admis | Objectif principal | Ce sur quoi les testeurs doivent se concentrer |
+|---|---|---|---|
+| Interne / amis et famille | Développeurs et communauté proche | Stabilité de la boucle principale | Plantages, softlocks, déclencheurs manquants |
+| Playtest fermé | Testeurs invités, petites équipes | Réglage des pièges et rythme | Courbe de difficulté, clarté des règles |
+| Fenêtre de playtest communautaire | Groupe plus large, souvent premier arrivé | Appariement et charge | Temps d'attente, déconnexions, désynchronisation |
+| Test de charge ouvert | Toute personne avec un lien ou une clé | Limites serveur | Lag, détection des impacts, abus d'exploits |
+| Sortie publique | Tout le monde | Rétention | — |
+
+Les étapes varient selon le studio. Certains projets passent directement d'un test fermé au lancement, et d'autres font tourner la même build pendant des mois.
+
+## Comment accéder à un playtest de Saw Genesis
+
+L'accès ne vient presque jamais d'une annonce payante. Il vient du fait d'être au bon endroit quand les développeurs ouvrent une fenêtre, et de donner l'impression d'être quelqu'un qui déposera réellement un rapport au lieu de simplement jouer.
+
+| Voie | Où chercher | Effort | Remarques |
+|---|---|---|---|
+| Discord officiel | Salon des annonces | Faible | Généralement le premier endroit où les créneaux apparaissent |
+| Hub communautaire ou page du jeu | Page de groupe ou fiche de magasin | Faible | Lisez attentivement les conditions de participation |
+| Streams des développeurs | Twitch ou YouTube | Moyen | Des clés sont parfois distribuées en direct |
+| Formulaire d'inscription | Publication épinglée ou site officiel | Moyen | Répondez sérieusement, pas en trois mots |
+| Concours de créateurs | Chaînes d'horreur plus modestes | Moyen | Vérifiez d'abord que l'hôte est légitime |
+| Fenêtres de test publiques | Page du jeu pendant les heures annoncées | Faible | Aucune invitation nécessaire, trafic le plus élevé |
+
+Une séquence d'inscription pratique ressemble à ceci :
+
+- Créez ou actualisez votre compte de plateforme. Si le playtest tourne sur Roblox, vous aurez besoin [d'un compte Roblox gratuit](https://www.roblox.com/) avant toute chose.
+- Rejoignez l'espace communautaire officiel et activez les notifications uniquement pour le salon des annonces — pas pour tous les salons.
+- Remplissez toute candidature honnêtement. L'expérience en signalement de bugs vaut mieux qu'une longue liste de jeux joués.
+- Confirmez que vous pouvez réellement être présent pendant la fenêtre annoncée. Les testeurs qui ne se présentent pas sont discrètement retirés des tours suivants.
+- Vérifiez que votre appareil répond aux exigences de la build avant la session, pas pendant.
+
+Des retours de la communauté suggèrent que la principale raison pour laquelle les candidatures sont ignorées est une candidature d'une seule ligne sans disponibilité indiquée. Les développeurs planifient des personnes, ils ne collectionnent pas des fans.
+
+## À quoi ressemble une session de playtest de Saw Genesis
+
+Les sessions de ce genre suivent un rythme approximatif. Votre travail consiste à observer ce rythme et à noter où il se brise.
+
+| Phase | Ce qui se passe | Rôle du testeur |
+|---|---|---|
+| Lobby | Échauffement, commandes, briefing des règles | Vérifier la clarté de l'interface et les temps de chargement |
+| Début de partie | Attribution des rôles, chargement de la carte | Noter la logique d'apparition et la désynchronisation |
+| Salles à pièges | Énigmes chronométrées et choix forcés | Chronométrer chaque piège, signaler les ambiguïtés |
+| Poursuite | Pression du chasseur, courses-poursuites | Vérifier les collisions, les hitboxes, les indices audio |
+| Final | Dernier objectif, évasion ou échec | Confirmer que les états de victoire/défaite se déclenchent correctement |
+| Débriefing | Écran de score et option de rejouer | Capturer les résultats, noter tout ce qui est étrange |
+
+### Archétypes de pièges courants et comment les aborder
+
+La plupart des conceptions de pièges de ce genre sont des variations autour d'une poignée d'idées. Reconnaître l'archétype vous indique ce que les développeurs testent — et ce qu'il faut noter.
+
+| Archétype | Ce qu'il teste | Approche pratique |
+|---|---|---|
+| Verrou chronométré | Réaction sous pression | Désignez une personne qui guide, tout le monde écoute |
+| Mécanisme coopératif | Communication | Répartissez les rôles avant de toucher à quoi que ce soit |
+| Séquence de mémoire | Attention et annonces | Dites le motif à voix haute dès que vous le voyez |
+| Course-poursuite | Connaissance de la carte | Apprenez une boucle sûre au lieu de sprinter à l'aveugle |
+| Choix de sacrifice | Pression sociale | Convenez de la règle avant le début de la manche |
+
+Quand un piège semble injuste, ne dites pas simplement « trop dur ». Notez combien de tentatives cela a pris, quelle information manquait et si un joueur débutant aurait pu savoir quoi faire. C'est cette phrase qui déclenche la refonte d'un piège.
+
+## Conseils de playtest de Saw Genesis pour les débutants
+
+Les nouveaux testeurs font généralement les mêmes erreurs. Les éviter vous place devant la majorité du lobby.
+
+- **Enregistrez tout.** Un clip avec un horodatage vaut dix paragraphes de description.
+- **Jouez les parties ennuyeuses.** Les menus, les paramètres, les flux de reconnexion et les textes de tutoriel cassent plus souvent que les combats de boss.
+- **Testez avec une équipe complète.** La moitié des bugs d'un jeu coopératif n'apparaissent qu'avec quatre joueurs qui parlent en même temps.
+- **Ne farmez pas les exploits pour faire des clips.** Reproduisez le bug une fois, signalez-le, passez à autre chose. Le farm fait bannir les testeurs.
+- **Essayez les états d'échec.** Mourir, se déconnecter et quitter en pleine manche révèlent plus qu'une victoire propre.
+- **Écrivez vos notes le soir même.** La mémoire s'efface vite, et « je crois que c'était dans la deuxième salle » n'aide personne.
+- **Posez vos questions dans le bon salon.** Les développeurs répondent aux questions ciblées ; ils ignorent les vagues.
+
+Une habitude supplémentaire distingue les testeurs utiles des touristes : ils jouent deux fois au même contenu. La première fois vous dit si quelque chose est amusant. La seconde vous dit si c'est constant. La constance est là où vivent la plupart des bugs de playtest.
+
+## Signaler les bugs et donner des retours qui sont utilisés
+
+Un bon rapport répond à quatre questions : ce que vous avez fait, ce que vous attendiez, ce qui s'est passé et à quelle fréquence cela se répète. Tout ce qui est plus court finit classé au bas de la pile.
+
+| Type de rapport | Ce qu'il faut inclure | Priorité |
+|---|---|---|
+| Plantage ou blocage complet | Étapes, horodatage, séquence vidéo | Critique |
+| Le piège ne se déclenche pas | Emplacement, action précédente, clip | Élevée |
+| Hors limites ou collision | Capture d'écran de l'endroit, itinéraire emprunté | Élevée |
+| Plainte d'équilibrage | Tentatives, morts, pourquoi cela semblait injuste | Moyenne |
+| Bug audio ou visuel | Clip plus informations sur le casque et l'appareil | Moyenne |
+| Suggestion | Problème d'abord, idée ensuite | Faible |
+
+### Étiquette : ce qui distingue les bons testeurs des bannis
+
+Les playtests reposent sur la confiance. Brisez-la une fois et vous ne serez plus invité, peu importe la qualité de vos rapports.
+
+| À faire | À ne pas faire |
+|---|---|
+| Signaler les bugs avec des clips | Fuiter des fichiers de build ou des ressources dataminées |
+| Jouer à la build comme prévu | Farmer les exploits pour créer du contenu |
+| Donner un retour directement aux développeurs | Harceler d'autres testeurs dans le chat vocal |
+| Respecter tout NDA ou embargo | Streamer quand on vous demande de ne pas le faire |
+| Tester les systèmes ingrats | Ne courir qu'après les bugs amusants |
+
+Si une build est sous NDA, cela signifie généralement pas de captures d'écran, pas de streams et pas de publication de détails en public. L'expérience des joueurs dans ce domaine est claire : les testeurs qui respectent les embargos sont ceux qui continuent d'être invités au tour suivant.
+
+## FAQ du playtest de Saw Genesis
+
+**Comment obtenir une clé pour un playtest de Saw Genesis ?**
+Surveillez les canaux communautaires officiels et la page du jeu. Les créneaux y sont généralement annoncés en premier, souvent via un formulaire d'inscription ou une fenêtre premier arrivé, premier servi. Évitez toute personne qui vend l'accès — les playtests légitimes de ce genre ne sont pas payants.
+
+**Un playtest de Saw Genesis est-il gratuit ?**
+Dans presque tous les cas, oui. Les playtests existent pour que les développeurs récoltent des données, donc faire payer les testeurs irait à l'encontre du but. Si un site demande un paiement ou des identifiants de compte, c'est une arnaque.
+
+**Combien de temps dure une session en général ?**
+Cela dépend de la build. Certaines sessions sont de courts blocs planifiés ; d'autres vous laissent jouer jusqu'à ce que vous ayez couvert le contenu que l'équipe teste. Consultez l'annonce pour la fenêtre spécifique et prévoyez de rester pendant toute la durée.
+
+**Que faire si je trouve un bug pendant un playtest de Saw Genesis ?**
+Reproduisez-le une fois, capturez un clip et notez les étapes et l'horodatage. Signalez-le via le canal indiqué par les développeurs, puis passez à autre chose. Les rapports en double sont acceptables ; les bugs silencieux ne le sont pas.
