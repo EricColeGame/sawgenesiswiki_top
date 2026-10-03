@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Saw Genesis Journey",
+      "title": "Your Saw Genesis Wiki Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core loop from your first room: read the mechanism, find the leverage, and decide before the timer runs out."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "How to Play",
+          "description": "Master the trap puzzles, co-op roles, and survival habits that decide whether your team escapes."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Characters Guide",
+          "description": "Meet John Kramer, Amanda Young, and the apprentices who built Jigsaw's legacy from the very first game."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Saw Genesis."
+          "title": "Traps & Survival",
+          "description": "Break down every trap archetype, from restraint and timed escapes to sacrifice and coordination tests."
         }
       ]
     },
@@ -66,237 +66,321 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "How to Play",
+        "Traps Explained",
+        "Characters"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need for your first match, from reading a room to surviving the timer.",
+          "href": "/guide/saw-genesis-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "How to Play",
+          "description": "Controls, trap puzzles, co-op roles, and the survival habits that keep a team alive.",
+          "href": "/guide/saw-genesis-how-to-play"
+        },
+        {
+          "badge": "Popular",
+          "title": "Traps Explained",
+          "description": "Every trap category, its timer mechanics, and the counterplay that clears a room on the first attempt.",
+          "href": "/mechanics/saw-genesis-traps"
+        },
+        {
+          "badge": "Popular",
+          "title": "Characters Guide",
+          "description": "John Kramer, Amanda Young, Lawrence Gordon, and the apprentices behind Jigsaw's legacy.",
+          "href": "/characters/saw-genesis-characters"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "3v1 Multiplayer",
+          "description": "Roles, trap counterplay, callouts, and the habits that raise your escape rate.",
+          "href": "/mechanics/saw-genesis-3v1-multiplayer"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Release Date",
+          "description": "What is confirmed, what is rumor, and how to verify any date before you believe it.",
+          "href": "/release/saw-genesis-release-date"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Jigsaw Origin",
+          "description": "Trace John Kramer's story from tragedy to Billy the puppet and the traps that built an empire.",
+          "href": "/characters/saw-genesis-jigsaw"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Timeline",
+          "description": "The chronological order of the Saw saga, from the 2003 short film onward.",
+          "href": "/lore/saw-genesis-timeline"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Saw Genesis?",
       "paragraphs": [
-        "Saw Genesis is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Saw Genesis is a survival horror experience rooted in the Saw franchise's origin era. Players step into trap-filled rooms and race a timer that never stops, turning observation, communication, and risk math into the skills that decide whether they escape.",
+        "Saw Genesis Wiki covers the full picture: how the 3v1 mode works, every trap archetype and its counterplay, the characters and apprentices behind Jigsaw's legacy, and where to follow release news. Whether you are reading your first room or refining escape routes, these guides are built to keep you alive."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "Midnight Continent"
+          "label": "Franchise",
+          "value": "Saw"
         },
         {
-          "label": "Platform",
-          "value": "Roblox"
+          "label": "First Film",
+          "value": "2004"
+        },
+        {
+          "label": "Origin",
+          "value": "2003 Short"
+        },
+        {
+          "label": "Format",
+          "value": "3v1 Co-op"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Survival Horror"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Core Skill",
+          "value": "Trap Puzzles"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
-        },
-        {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Platforms",
+          "value": "PC & Console"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Saw Genesis Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Dive into Saw Genesis Wiki with beginner walkthroughs, character breakdowns, trap mechanics, release news, and trailer analysis — everything you need in one place.",
       "modules": [
         {
           "order": 1,
-          "name": "Saw Genesis Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes",
-          "displayType": "code-box",
+          "name": "Saw Genesis Wiki Beginner Guide",
+          "description": "This module introduces new players to the core loop: the 3v1 format, hunter and survivor roles, objectives, and the survival habits that keep a first match alive.",
+          "href": "/guide/saw-genesis-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "COMING-SOON — No active codes currently available"
+              "label": "1",
+              "detail": "Read the room before you move — release mechanisms are usually within arm's reach."
             },
             {
-              "label": "Code",
-              "detail": "STAY-TUNED — Check back soon for new codes"
+              "label": "2",
+              "detail": "Assign roles early: an objective lead, a scout, and a support who covers revives."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Disarm traps only while the hunter is accounted for, and call every cleared route."
+            },
+            {
+              "label": "4",
+              "detail": "Push two objectives at once so the hunter can only pressure one of them."
+            },
+            {
+              "label": "5",
+              "detail": "Convert to a single escape route in the end game instead of splitting up late."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Saw Genesis Wiki Characters",
+          "description": "This module covers the cast behind Jigsaw's legacy — John Kramer, Amanda Young, Lawrence Gordon, and the apprentices — and the choices that define each game.",
+          "href": "/characters/saw-genesis-characters",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "John Kramer (Jigsaw) — the architect who designs every game and its rules."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Amanda Young — a survivor turned apprentice who carries the legacy forward."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Lawrence Gordon — the doctor whose choice defines the first bathroom game."
+            },
+            {
+              "label": "C",
+              "detail": "Billy the Puppet — the visual signature that delivers each message."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/tier-list",
-          "displayType": "tier-grid",
+          "name": "Saw Genesis Wiki Gameplay Mechanics",
+          "description": "This module explains the systems that decide a match: trap categories, timed puzzles, procedural rooms, injuries, revives, and the objective clock.",
+          "href": "/mechanics/saw-genesis-traps",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Traps",
+              "detail": "Timed puzzles with a moral edge — read the mechanism, find the leverage, decide fast."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Puzzles",
+              "detail": "Codes, patterns, and symbols reward deduction over raw reflexes."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Injuries",
+              "detail": "Downed survivors can be revived, and a revive is the biggest momentum swing."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Maps",
+              "detail": "Procedural trial rooms change layout, so scout before you commit."
+            },
+            {
+              "label": "Timer",
+              "detail": "One countdown with staged objectives forces decisions over perfect play."
+            },
+            {
+              "label": "Teamwork",
+              "detail": "Communication is a mechanic; silent teams lose to one coordinated hunter."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/skills",
-          "displayType": "feature-cards",
+          "name": "Saw Genesis Wiki Tips and Strategies",
+          "description": "Practical strategies for both sides: rotation, splitting objectives, callouts, and the greedy mistakes that turn one down into two.",
+          "href": "/guide/saw-genesis-how-to-play",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Rotate",
+              "detail": "Make the hunter walk — every second spent chasing is time your team gains."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Split Up",
+              "detail": "Push two objectives in two locations so the hunter can only pressure one."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Stay Calm",
+              "detail": "Panic sprinting reveals your position; walk when the hunter is close."
+            },
+            {
+              "label": "Callouts",
+              "detail": "Short, directional, actionable callouts keep three players coordinated."
+            },
+            {
+              "label": "No Greed",
+              "detail": "Confirm the hunter has left before reviving to avoid losing two players."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Saw Genesis Wiki Maps and Locations",
+          "description": "A tour of the trial spaces — the sealed bathroom that started it all, procedural trap rooms, and the industrial sets where releases hide in plain sight.",
+          "href": "/mechanics",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Bathroom",
+              "detail": "The sealed room from the 2004 film where the very first game begins."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Trap Rooms",
+              "detail": "Procedural trial spaces built around restraint, timing, and sacrifice."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Escape Routes",
+              "detail": "Convert to one exit in the end game instead of splitting late."
+            },
+            {
+              "label": "Industrial Sets",
+              "detail": "Grim mechanical environments that hide release mechanisms in plain sight."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/maps",
-          "displayType": "feature-cards",
+          "name": "Saw Genesis Wiki News and Updates",
+          "description": "This module collects official announcements, playtest windows, development updates, and community discussion around Saw Genesis.",
+          "href": "/community/saw-genesis-news",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "News",
+              "detail": "Official announcements, playtest windows, and development updates."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Timeline",
+              "detail": "How the 2003 short and 2004 film connect to later entries."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Theories",
+              "detail": "Community fan theories and spoiler-free discussion threads."
+            },
+            {
+              "label": "Community",
+              "detail": "Reddit and Discord talk tracking the latest Saw Genesis news."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Saw Genesis Wiki Release Information",
+          "description": "Release details, platforms, and how to verify them — store pages, early access, and the rumors that spread before every launch.",
+          "href": "/release/saw-genesis-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Steam",
+              "detail": "Track the store page and wishlist for launch alerts."
+            },
+            {
+              "label": "PS5",
+              "detail": "Platform status, rumors, and how to spot fake pre-orders."
+            },
+            {
+              "label": "Xbox",
+              "detail": "Release status and how to verify real Saw Genesis Xbox news."
+            },
+            {
+              "label": "Early Access",
+              "detail": "How to join the build and what to inspect in your first hour."
+            },
+            {
+              "label": "Release Date",
+              "detail": "No official date yet — verify any claim before you believe it."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Saw Genesis Wiki Trailers and Media",
+          "description": "Official trailers, gameplay breakdowns, and developer media collected so you can separate real footage from fan-made fakes.",
+          "href": "/trailers/saw-genesis-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Trailer",
+              "detail": "Official trailer breakdown covering traps, tone, and gameplay systems."
+            },
+            {
+              "label": "Gameplay",
+              "detail": "Gameplay footage reveals the trap puzzles and the 3v1 structure."
+            },
+            {
+              "label": "Reveal",
+              "detail": "What to expect from the next Saw chapter's first teaser."
+            },
+            {
+              "label": "Media",
+              "detail": "Screenshots and developer media collected in one place."
             }
           ]
         }
@@ -304,27 +388,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Saw Genesis.",
+      "description": "Quick answers about Saw Genesis Wiki, its characters, traps, and release news.",
       "items": [
         {
-          "question": "What is Saw Genesis?",
-          "answer": "Saw Genesis is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Saw Genesis Wiki?",
+          "answer": "Saw Genesis Wiki is a community resource for the franchise's origin era and the trap-based survival game built around it — the 2003 short, the 2004 film, the characters behind Jigsaw, and the mechanics that decide every room."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Saw Genesis a game or a movie?",
+          "answer": "This Saw Genesis Wiki covers both: the origin chapter of the film franchise and the 3v1 trap-survival game, so you can follow the story and learn the mechanics in one place."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I survive a trap?",
+          "answer": "Read the room before you move, disarm traps only while the hunter is accounted for, and treat communication as a mechanic rather than a courtesy."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Which characters matter most?",
+          "answer": "Start with John Kramer, Amanda Young, and Lawrence Gordon — the Saw Genesis Wiki character pages explain how each one shapes the games."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I find release and platform news?",
+          "answer": "The release section of Saw Genesis Wiki tracks store pages, platform status, and how to verify any date before you believe it."
         }
       ]
     },
