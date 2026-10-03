@@ -19,19 +19,16 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
-  social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
-  },
+  name: "Saw Genesis Wiki",
+  shortName: "Saw Genesis",
+  logoText: "SG",
+  tagline: "Guides, Characters, Gameplay & Release Info",
+  description: "A community wiki for Saw Genesis featuring game guides, character information, gameplay details, progression tips, and essential resources for players exploring its mysterious world.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://sawgenesiswiki.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://sawgenesiswiki.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/2865960/SAW_Genesis/",
+  heroVideoId: "RJL94pQWrmA", // SAW: Genesis | Game Features Overview | The Rules Are Simple (official Bloober Team showcase)
+  social: {},
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
 };
