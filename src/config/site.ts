@@ -25,10 +25,14 @@ export const siteConfig: SiteConfig = {
   tagline: "Guides, Characters, Gameplay & Release Info",
   description: "A community wiki for Saw Genesis featuring game guides, character information, gameplay details, progression tips, and essential resources for players exploring its mysterious world.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://sawgenesiswiki.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://sawgenesiswiki.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@sawgenesiswiki.top",
   gameUrl: "https://store.steampowered.com/app/2865960/SAW_Genesis/",
   heroVideoId: "RJL94pQWrmA", // SAW: Genesis | Game Features Overview | The Rules Are Simple (official Bloober Team showcase)
-  social: {},
+  social: {
+    discord: "https://discord.com/invite/sawgenesis",
+    youtube: "https://www.youtube.com/@BlooberTeamSA",
+    twitter: "https://x.com/SAWGenesis",
+  },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
 };
