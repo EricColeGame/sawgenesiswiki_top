@@ -1,1 +1,493 @@
-{}
+{
+  "site": {
+    "name": "Saw Genesis Wiki",
+    "shortName": "Saw Genesis",
+    "tagline": "Guides, Charaktere, Gameplay & Release-Infos",
+    "description": "Ein Community-Wiki zu Saw Genesis mit Spielguides, Charakterinformationen, Gameplay-Details, Fortschrittstipps und wichtigen Ressourcen für Spieler, die seine rätselhafte Welt erkunden.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "release": "Release",
+    "trailers": "Trailer",
+    "guide": "Guide",
+    "mechanics": "Mechanik",
+    "characters": "Charaktere",
+    "lore": "Lore",
+    "community": "Community"
+  },
+  "home": {
+    "meta": {
+      "title": "Saw Genesis Wiki – Guides, Charaktere & Tipps",
+      "description": "Entdecke das Saw Genesis Wiki mit detaillierten Guides, Charakterinformationen, Gameplay-Tipps, Walkthroughs und hilfreichen Ressourcen, die Spielern helfen, die rätselhafte Welt des Spiels zu erkunden."
+    },
+    "hero": {
+      "eyebrow": "Dunkles Fantasy-Action-Adventure",
+      "title": "Saw Genesis Wiki",
+      "description": "Ein Community-Wiki zu Saw Genesis mit Spielguides, Charakterinformationen, Gameplay-Details, Fortschrittstipps und wichtigen Ressourcen für Spieler, die seine rätselhafte Welt erkunden.",
+      "stats": [
+        "Guides",
+        "Charaktere",
+        "Gameplay",
+        "Release-Infos"
+      ],
+      "primaryCta": "Auf Steam spielen",
+      "secondaryCta": "Offiziellen Trailer ansehen",
+      "tertiaryCta": "Einsteiger-Guide",
+      "videoLabel": "Offizieller Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Reise durch das Saw Genesis Wiki",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Lerne den Kern-Gameplay-Loop ab deinem ersten Raum: Lies den Mechanismus, finde den Hebel und entscheide, bevor der Timer abläuft."
+        },
+        {
+          "number": "2",
+          "title": "Spielanleitung",
+          "description": "Meistere die Fallenrätsel, Co-op-Rollen und Überlebensgewohnheiten, die darüber entscheiden, ob dein Team entkommt."
+        },
+        {
+          "number": "3",
+          "title": "Charakter-Guide",
+          "description": "Lerne John Kramer, Amanda Young und die Lehrlinge kennen, die Jigsaws Vermächtnis seit dem allerersten Spiel aufgebaut haben."
+        },
+        {
+          "number": "4",
+          "title": "Fallen & Überleben",
+          "description": "Zerlege jeden Fallentyp – von Fesselung und zeitlich begrenzten Fluchten bis hin zu Opfer- und Koordinationstests."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade im Trend",
+      "quickLinks": [
+        "Einsteiger-Guide",
+        "Spielanleitung",
+        "Fallen erklärt",
+        "Charaktere"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Guide",
+          "description": "Alles, was du für dein erstes Match brauchst – vom Lesen eines Raums bis zum Überleben des Timers.",
+          "href": "/guide/saw-genesis-beginner-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Spielanleitung",
+          "description": "Steuerung, Fallenrätsel, Co-op-Rollen und die Überlebensgewohnheiten, die ein Team am Leben halten.",
+          "href": "/guide/saw-genesis-how-to-play"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Fallen erklärt",
+          "description": "Jede Fallenkategorie, ihre Timer-Mechanik und das Gegenplay, das einen Raum im ersten Versuch räumt.",
+          "href": "/mechanics/saw-genesis-traps"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Charakter-Guide",
+          "description": "John Kramer, Amanda Young, Lawrence Gordon und die Lehrlinge hinter Jigsaws Vermächtnis.",
+          "href": "/characters/saw-genesis-characters"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "3v1-Mehrspieler",
+          "description": "Rollen, Fallen-Gegenplay, Callouts und die Gewohnheiten, die deine Fluchtrate erhöhen.",
+          "href": "/mechanics/saw-genesis-3v1-multiplayer"
+        },
+        {
+          "badge": "Neu",
+          "title": "Release-Datum",
+          "description": "Was bestätigt ist, was Gerücht ist und wie du jedes Datum prüfst, bevor du es glaubst.",
+          "href": "/release/saw-genesis-release-date"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Jigsaw-Ursprung",
+          "description": "Verfolge John Kramers Geschichte von der Tragödie über die Puppe Billy bis zu den Fallen, die ein Imperium aufbauten.",
+          "href": "/characters/saw-genesis-jigsaw"
+        },
+        {
+          "badge": "Neu",
+          "title": "Timeline",
+          "description": "Die chronologische Reihenfolge der Saw-Saga, vom Kurzfilm aus dem Jahr 2003 an.",
+          "href": "/lore/saw-genesis-timeline"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Saw Genesis?",
+      "paragraphs": [
+        "Saw Genesis ist ein Survival-Horror-Erlebnis, das in der Ursprungsära des Saw-Franchise verwurzelt ist. Spieler betreten mit Fallen gefüllte Räume und rennen gegen einen Timer, der niemals stoppt – Beobachtung, Kommunikation und Risikorechnung werden zu den Fähigkeiten, die über die Flucht entscheiden.",
+        "Das Saw Genesis Wiki deckt das ganze Bild ab: wie der 3v1-Modus funktioniert, jeder Fallentyp und sein Gegenplay, die Charaktere und Lehrlinge hinter Jigsaws Vermächtnis und wo man Release-News verfolgt. Ob du deinen ersten Raum liest oder Fluchtrouten verfeinerst – diese Guides sind darauf ausgelegt, dich am Leben zu halten."
+      ],
+      "stats": [
+        {
+          "label": "Franchise",
+          "value": "Saw"
+        },
+        {
+          "label": "Erster Film",
+          "value": "2004"
+        },
+        {
+          "label": "Ursprung",
+          "value": "2003 Kurzfilm"
+        },
+        {
+          "label": "Format",
+          "value": "3v1 Co-op"
+        },
+        {
+          "label": "Genre",
+          "value": "Survival Horror"
+        },
+        {
+          "label": "Kernfähigkeit",
+          "value": "Fallenrätsel"
+        },
+        {
+          "label": "Plattformen",
+          "value": "PC & Konsole"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Saw Genesis Wiki entdecken",
+      "description": "Tauche ins Saw Genesis Wiki ein – mit Einsteiger-Walkthroughs, Charakteranalysen, Fallenmechaniken, Release-News und Trailer-Analysen, alles an einem Ort.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Saw Genesis Wiki Einsteiger-Guide",
+          "description": "Dieses Modul führt neue Spieler in den Kern-Loop ein: das 3v1-Format, Jäger- und Überlebendenrollen, Ziele und die Überlebensgewohnheiten, die ein erstes Match am Leben halten.",
+          "href": "/guide/saw-genesis-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Lies den Raum, bevor du dich bewegst – Auslösemechanismen sind meist in Reichweite."
+            },
+            {
+              "label": "2",
+              "detail": "Verteile Rollen früh: ein Ziel-Lead, ein Späher und ein Support, der Revives abdeckt."
+            },
+            {
+              "label": "3",
+              "detail": "Entschärfe Fallen nur, wenn der Jäger bekannt ist, und melde jede geräumte Route."
+            },
+            {
+              "label": "4",
+              "detail": "Verfolge zwei Ziele gleichzeitig, damit der Jäger nur eines unter Druck setzen kann."
+            },
+            {
+              "label": "5",
+              "detail": "Wechsle im Endspiel auf eine einzige Fluchtroute, statt spät aufzuteilen."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Saw Genesis Wiki Charaktere",
+          "description": "Dieses Modul behandelt die Besetzung hinter Jigsaws Vermächtnis – John Kramer, Amanda Young, Lawrence Gordon und die Lehrlinge – und die Entscheidungen, die jedes Spiel prägen.",
+          "href": "/characters/saw-genesis-characters",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "John Kramer (Jigsaw) – der Architekt, der jedes Spiel und seine Regeln entwirft."
+            },
+            {
+              "label": "A",
+              "detail": "Amanda Young – eine Überlebende, die zur Lehrling wurde und das Vermächtnis weiterträgt."
+            },
+            {
+              "label": "B",
+              "detail": "Lawrence Gordon – der Arzt, dessen Entscheidung das erste Badezimmerspiel prägt."
+            },
+            {
+              "label": "C",
+              "detail": "Billy die Puppe – die visuelle Signatur, die jede Botschaft überbringt."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Saw Genesis Wiki Gameplay-Mechaniken",
+          "description": "Dieses Modul erklärt die Systeme, die ein Match entscheiden: Fallenkategorien, zeitgesteuerte Rätsel, prozedurale Räume, Verletzungen, Revives und die Ziel-Uhr.",
+          "href": "/mechanics/saw-genesis-traps",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Fallen",
+              "detail": "Zeitgesteuerte Rätsel mit moralischer Kante – lies den Mechanismus, finde den Hebel, entscheide schnell."
+            },
+            {
+              "label": "Rätsel",
+              "detail": "Codes, Muster und Symbole belohnen Deduktion statt reine Reflexe."
+            },
+            {
+              "label": "Verletzungen",
+              "detail": "Niedergestreckte Überlebende können wiederbelebt werden, und ein Revive ist der größte Momentum-Wechsel."
+            },
+            {
+              "label": "Karten",
+              "detail": "Prozedurale Prüfungsräume ändern das Layout – spähe, bevor du dich festlegst."
+            },
+            {
+              "label": "Timer",
+              "detail": "Ein Countdown mit gestaffelten Zielen erzwingt Entscheidungen statt perfektem Spiel."
+            },
+            {
+              "label": "Teamarbeit",
+              "detail": "Kommunikation ist eine Mechanik; stille Teams verlieren gegen einen koordinierten Jäger."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Saw Genesis Wiki Tipps und Strategien",
+          "description": "Praktische Strategien für beide Seiten: Rotation, Ziele aufteilen, Callouts und die gierigen Fehler, die aus einem Down zwei machen.",
+          "href": "/guide/saw-genesis-how-to-play",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Rotieren",
+              "detail": "Lass den Jäger laufen – jede Sekunde Verfolgung ist gewonnene Zeit für dein Team."
+            },
+            {
+              "label": "Aufteilen",
+              "detail": "Verfolge zwei Ziele an zwei Orten, damit der Jäger nur eines unter Druck setzen kann."
+            },
+            {
+              "label": "Ruhig bleiben",
+              "detail": "Panisches Sprinten verrät deine Position; gehe, wenn der Jäger nah ist."
+            },
+            {
+              "label": "Callouts",
+              "detail": "Kurze, richtungsweisende, umsetzbare Ansagen halten drei Spieler koordiniert."
+            },
+            {
+              "label": "Keine Gier",
+              "detail": "Bestätige, dass der Jäger weg ist, bevor du wiederbelebst, um nicht zwei Spieler zu verlieren."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Saw Genesis Wiki Karten und Orte",
+          "description": "Ein Rundgang durch die Prüfungsräume – das versiegelte Badezimmer, mit dem alles begann, prozedurale Fallenräume und die Industriekulissen, in denen Releases offen versteckt liegen.",
+          "href": "/mechanics",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Badezimmer",
+              "detail": "Der versiegelte Raum aus dem Film von 2004, in dem das allererste Spiel beginnt."
+            },
+            {
+              "label": "Fallenräume",
+              "detail": "Prozedurale Prüfungsräume, gebaut um Fesselung, Timing und Opfer."
+            },
+            {
+              "label": "Fluchtrouten",
+              "detail": "Wechsle im Endspiel auf einen Ausgang, statt spät aufzuteilen."
+            },
+            {
+              "label": "Industriekulissen",
+              "detail": "Düstere mechanische Umgebungen, die Auslösemechanismen offen verbergen."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Saw Genesis Wiki News und Updates",
+          "description": "Dieses Modul sammelt offizielle Ankündigungen, Playtest-Fenster, Entwicklungs-Updates und Community-Diskussionen rund um Saw Genesis.",
+          "href": "/community/saw-genesis-news",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "News",
+              "detail": "Offizielle Ankündigungen, Playtest-Fenster und Entwicklungs-Updates."
+            },
+            {
+              "label": "Timeline",
+              "detail": "Wie der Kurzfilm von 2003 und der Film von 2004 mit späteren Teilen zusammenhängen."
+            },
+            {
+              "label": "Theorien",
+              "detail": "Community-Fantheorien und spoilerfreie Diskussionsthreads."
+            },
+            {
+              "label": "Community",
+              "detail": "Reddit- und Discord-Gespräche zu den neuesten Saw Genesis News."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Saw Genesis Wiki Release-Informationen",
+          "description": "Release-Details, Plattformen und wie man sie prüft – Store-Seiten, Early Access und die Gerüchte, die vor jedem Launch kursieren.",
+          "href": "/release/saw-genesis-release-date",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Steam",
+              "detail": "Verfolge die Store-Seite und die Wunschliste für Launch-Benachrichtigungen."
+            },
+            {
+              "label": "PS5",
+              "detail": "Plattformstatus, Gerüchte und wie man gefälschte Vorbestellungen erkennt."
+            },
+            {
+              "label": "Xbox",
+              "detail": "Release-Status und wie man echte Saw Genesis Xbox-News prüft."
+            },
+            {
+              "label": "Early Access",
+              "detail": "Wie du dem Build beitrittst und was du in deiner ersten Stunde prüfen solltest."
+            },
+            {
+              "label": "Release-Datum",
+              "detail": "Noch kein offizielles Datum – prüfe jede Behauptung, bevor du sie glaubst."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Saw Genesis Wiki Trailer und Medien",
+          "description": "Offizielle Trailer, Gameplay-Analysen und Entwicklermedien gesammelt, damit du echtes Material von Fan-Fälschungen unterscheiden kannst.",
+          "href": "/trailers/saw-genesis-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Trailer",
+              "detail": "Offizielle Trailer-Analyse zu Fallen, Ton und Gameplay-Systemen."
+            },
+            {
+              "label": "Gameplay",
+              "detail": "Gameplay-Material zeigt die Fallenrätsel und die 3v1-Struktur."
+            },
+            {
+              "label": "Reveal",
+              "detail": "Was vom ersten Teaser des nächsten Saw-Kapitels zu erwarten ist."
+            },
+            {
+              "label": "Medien",
+              "detail": "Screenshots und Entwicklermedien an einem Ort gesammelt."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten zum Saw Genesis Wiki, seinen Charakteren, Fallen und Release-News.",
+      "items": [
+        {
+          "question": "Was ist das Saw Genesis Wiki?",
+          "answer": "Das Saw Genesis Wiki ist eine Community-Ressource für die Ursprungsära des Franchise und das darauf aufbauende fallenbasierte Survival-Spiel – der Kurzfilm von 2003, der Film von 2004, die Charaktere hinter Jigsaw und die Mechaniken, die jeden Raum entscheiden."
+        },
+        {
+          "question": "Ist Saw Genesis ein Spiel oder ein Film?",
+          "answer": "Dieses Saw Genesis Wiki behandelt beides: das Ursprungskapitel des Film-Franchise und das 3v1-Fallen-Survival-Spiel, damit du die Geschichte verfolgen und die Mechaniken an einem Ort lernen kannst."
+        },
+        {
+          "question": "Wie überlebe ich eine Falle?",
+          "answer": "Lies den Raum, bevor du dich bewegst, entschärfe Fallen nur, wenn der Jäger bekannt ist, und behandle Kommunikation als Mechanik statt als Höflichkeit."
+        },
+        {
+          "question": "Welche Charaktere sind am wichtigsten?",
+          "answer": "Beginne mit John Kramer, Amanda Young und Lawrence Gordon – die Charakterseiten des Saw Genesis Wiki erklären, wie jeder von ihnen die Spiele prägt."
+        },
+        {
+          "question": "Wo finde ich Release- und Plattform-News?",
+          "answer": "Der Release-Bereich des Saw Genesis Wiki verfolgt Store-Seiten, Plattformstatus und wie man jedes Datum prüft, bevor man es glaubt."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Saw Genesis zu erkunden?",
+      "description": "Von deinen ersten Schritten in seine dunkle mechanische Welt bis zu späten Begegnungen – unser Community-Wiki bietet dir kostenlose, aktuelle Guides.",
+      "primary": "Den Einsteiger-Guide lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "release": {
+    "overviewTitle": "Saw Genesis Release-Berichterstattung",
+    "overviewDescription": "Verfolge jeden Release-Meilenstein von Saw Genesis: Launch-Fenster, Plattformverfügbarkeit, Early-Access-Details und die neuesten offiziellen Ankündigungen an einem Ort."
+  },
+  "trailers": {
+    "overviewTitle": "Saw Genesis Trailer & Enthüllungen",
+    "overviewDescription": "Sieh dir jeden Saw Genesis Trailer, jede Gameplay-Enthüllung und jeden Cinematic-Teaser an und analysiere die Mechaniken und Story-Momente, die jeder zeigt."
+  },
+  "guide": {
+    "overviewTitle": "Saw Genesis Guides",
+    "overviewDescription": "Praktische Saw Genesis Guides für neue und zurückkehrende Spieler, mit Spielanleitung, Alpha-Anmeldungen, Playtests, Demos und dem schnellsten Einstieg."
+  },
+  "mechanics": {
+    "overviewTitle": "Saw Genesis Spielmechaniken",
+    "overviewDescription": "Verstehe, wie Saw Genesis wirklich gespielt wird: Mehrspielermodi, Crossplay, Einzelspielerstruktur und die Fallensysteme, die seinen kompetitiven Horror antreiben."
+  },
+  "characters": {
+    "overviewTitle": "Saw Genesis Charaktere",
+    "overviewDescription": "Lerne die Saw Genesis Besetzung kennen, von Jigsaw und dem Richter bis zum Angeklagten, mit Profilen zu ihren Rollen, Fähigkeiten und Story-Verbindungen."
+  },
+  "lore": {
+    "overviewTitle": "Saw Genesis Story & Lore",
+    "overviewDescription": "Erkunde die Saw Genesis Timeline, den Kanon und die Handlung und sieh, wie das Spiel mit der Geschichte des größeren Franchise verbunden ist."
+  },
+  "community": {
+    "overviewTitle": "Saw Genesis Community",
+    "overviewDescription": "Finde die Saw Genesis Community auf Discord, Reddit und in News-Kanälen – plus die besten Orte, um Strategien zu teilen und Updates zu verfolgen."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes ansehen",
+    "playOnRoblox": "Auf Steam spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Saw Genesis Wiki",
+    "about": "Das Saw Genesis Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub zu Charakteren, Gameplay-Systemen, Fortschrittsrouten, Bossen und wichtigem Spielwissen für neue wie erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Saw Genesis Wiki. Nicht verbunden mit Broken Mirror Games, Anshar Studios oder Bloober Team.",
+    "description": "Dunkles Fantasy-Action-Adventure. Von der Community erstellte Guides, Charakterseiten und Fortschrittsressourcen.",
+    "playGame": "Saw Genesis auf Steam spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Community-Tools",
+    "beginnerGuide": "Einsteiger-Guide",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "characterGuides": "Charakter-Guides",
+    "mechanicsGuides": "Mechanik",
+    "loreGuides": "Story & Lore"
+  }
+}
